@@ -72,7 +72,7 @@ SPARK_STEPS_TRANSFORMATION = [
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 11, 17), 
+    'start_date': datetime(2025, 1, 17), 
     'email': ['myemail@domain.com'],
     'email_on_failure': False,
     'email_on_retry': False,
